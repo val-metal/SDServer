@@ -22,7 +22,7 @@ def check_subdirectories(directory):
 
 def main():
     dire=[]
-    with open("slozky.txt", "r") as file:
+    with open("folders.txt", "r") as file:
         directories = [line.strip() for line in file]
     with open("prompt.txt", "r") as file:
         prompts = [line.strip() for line in file]
